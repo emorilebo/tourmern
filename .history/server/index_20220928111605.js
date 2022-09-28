@@ -17,7 +17,7 @@ app.use(cors());
 app.use("/users", userRouter); // http://localhost:5000/users/signup
 
 const MONGODB_URL =
-  "mongodb+srv://emori:CRUXifixur1958@cluster0.ddfpbqr.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://emori:CRUXifixur1958@cluster0.ddfpbqr.mongodb.net/tour?retryWrites=true&w=majority";
 
 const port = 5000;
 

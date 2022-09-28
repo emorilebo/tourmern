@@ -2,7 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import morgan from "morgan";
-import userRouter from "./routes/user.js";
+import userRouter from "./routes/user.js"
 
 //Password : CRUXifixur1958
 //mongodb+srv://emori:<password>@cluster0.ddfpbqr.mongodb.net/?retryWrites=true&w=majority
