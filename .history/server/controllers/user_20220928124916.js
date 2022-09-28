@@ -6,16 +6,9 @@ import UserModel from "../models/user.js";
 const secret = "test";
 
 export const signin = async (req, res) => {
-  const { email, password } = req.body;
-  try {
-    const oldUser = await UserModel.find.findOne({ email });
-    if (!oldUser)
-      return res.status(404).send({ message: "User does not exist" });
-
-    const isPasswordCorrect = await bcrypt.compare(password, oldUser.password);
-    if(!isPasswordCorrect) return res.status(400).json({ message: "Invalid Credentials" });
-  } catch (error) {}
-};
+    const {email, password} = req.body;
+    try
+}
 
 export const signup = async (req, res) => {
   const { email, password, firstName, lastName } = req.body;
