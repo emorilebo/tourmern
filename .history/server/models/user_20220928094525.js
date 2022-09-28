@@ -7,5 +7,3 @@ const userSchema = mongoose.Schema({
     googleId: {type: String, required: false},
     it:{type: String},
 })
-
-export default mongoose.model('User', userSchema);

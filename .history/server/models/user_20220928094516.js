@@ -5,7 +5,5 @@ const userSchema = mongoose.Schema({
     email: {type: String, required: true},
     password: {type: String, required: false},
     googleId: {type: String, required: false},
-    it:{type: String},
+    it:{}
 })
-
-export default mongoose.model('User', userSchema);
