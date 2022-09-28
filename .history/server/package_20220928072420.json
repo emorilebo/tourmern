@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend of tourmern stack app using redux toolkit, jwt auth, crud, like pagination, etc.",
+  "main": "index.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Godfrey Lebo",
+  "license": "ISC"
+}
